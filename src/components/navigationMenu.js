@@ -1,13 +1,12 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu } from 'semantic-ui-react';
-import AuthContext from './userContex'; // Assuming you have an AuthContext
+import AuthContext from './userContex'; 
 
 const NavigationMenu = () => {
   const { isLogined, logout } = useContext(AuthContext);
 
   const handleLogout = () => {
-    // Call your logout function or perform logout actions
     logout();
   };
 
