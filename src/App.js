@@ -20,12 +20,10 @@ function App() {
         <div className="main">
         <h2 className="main-header">React Crud Operations</h2>
         <NavigationMenu />
-          {/* Routes */}
           <Routes>
-            {/* Default route for the root path */}
+            //Root
             <Route path='/' element={<Login />} />
 
-            {/* Other routes */}
             <Route path='/create' element={<Create />} />
             <Route path='/read' element={<Read />} />
             <Route path='/update' element={<Update />} />
