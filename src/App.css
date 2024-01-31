@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-/* App.css */
+
 
 body {
 
@@ -11,11 +11,11 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0; /* Set your desired background color */
+  background-color: #f0f0f0;
 }
 
 form {
-  background-color: #fff; /* Set your desired background color for the form */
+  background-color: #fff; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
